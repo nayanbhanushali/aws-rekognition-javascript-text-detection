@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Object Detection Demo</title>
+
+  <script src="aws-sdk-2.653.0.min.js"></script>
+  <script src="olapan.js"></script>
+</head>
+<body>
+  <h1>Object Detection Demo</h1>
+  
+  <h2>Upload File</h2>
+  <input type="file" id="upload" accept="image/*" onchange="processImage()" />
+
+  <h2>Image Output</h2>
+  <p id="nayan"></p>
+  <canvas id="canvas" height="500" width="500"></canvas>
+</body>
+</html>
