@@ -2,9 +2,9 @@
 
 //AWS access details
 AWS.config.update({
-    accessKeyId: 'AKIARBI34SIFAOHULDVU',
-    secretAccessKey: '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',
-    region: 'us-east-2'
+    accessKeyId: 'Artuijhl',
+    secretAccessKey: 'vkgugku',
+    region: 'us'
   });
 
 
